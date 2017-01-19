@@ -697,7 +697,7 @@ class FormBuilder
           return in_array($value, $selected) ? 'selected' : null;
       }
 
-      return ((string) $value == (string) $selected) ? 'selected' : null;
+      return ((string) $value === (string) $selected) ? 'selected' : null;
   }
 
   /**
